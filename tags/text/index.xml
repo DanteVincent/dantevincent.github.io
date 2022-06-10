@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>text on Astarte的个人博客</title>
-    <link>https://dantevincent.github.io/tags/text/</link>
+    <link>/tags/text/</link>
     <description>Recent content in text on Astarte的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dantevincent.github.io/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/text/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Own Posts</title>
-      <link>https://dantevincent.github.io/posts/myown/</link>
+      <link>/posts/myown/</link>
       <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dantevincent.github.io/posts/myown/</guid>
+      <guid>/posts/myown/</guid>
       <description>&lt;p&gt;嘿！这个是假的文章！啥都没写！&lt;/p&gt;</description>
     </item>
     
