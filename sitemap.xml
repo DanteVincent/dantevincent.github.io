@@ -2,59 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/authors/hugo-authors/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+    <loc>/about/</loc>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/myown/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/series/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/text/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/series/themes-guide/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/docs/example-doc/chapter-1/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/docs/example-doc/nested-chapter/chapter-1/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/docs/example-doc/chapter-2/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/docs/example-doc/nested-chapter/chapter-2/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/docs/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/docs/example-doc/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/docs/example-doc/nested-chapter/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+    <loc>/note/</loc>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/authors/example-author/</loc>
+    <loc>/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>
