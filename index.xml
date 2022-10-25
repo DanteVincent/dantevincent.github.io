@@ -7,22 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Wenqi Chen的个人简历
-这个博客应该会分享一些个人脚本啥的，回头再说吧</description>
-    </item>
-    
-    <item>
       <title>Another Note on A blogdown Tutorial</title>
       <link>/note/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/note/</guid>
       <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/</guid>
+      <description>1. 自由能&amp;amp;一维隧穿因子计算程序 简介：
+读取Gaussian软件的频率计算任务输出, 给出相应参数: 原子个数, 分子质量, 振动频率个数, &amp;hellip;, 转动特征温度, 振动频率等；
+根据用户输入的电子态多重度/相对能级、温度、压强、频率矫正因子等，计算得到对应的平动、转动、振动、电子配分函数；
+根据配分函数信息计算得到相应自由能矫正，再结合电子能得到最终相应温度下的自由能；
+可计算不同温度下一维Asymmetric Eckart隧穿因子1与Skodje-Truhlar隧穿因子2。
+1 : Johnston, H. S.; Heicklen, J. TUNNELLING CORRECTIONS FOR UNSYMMETRICAL ECKART POTENTIAL ENERGY BARRIERS. J. Phys. Chem. 1962, 66 (3), 532–533.
+2 : Skodje, R. T.; Truhlar, D. G. Parabolic Tunneling Calculations. J. Phys. Chem. 1981, 85 (6), 624–628.
+2. 一维受阻转子计算脚本 简介：
+采用Fourier Grid Hamiltonian方法1求解对应有非简谐特征的简正模式的一维势能面的薛定谔方程；
+计算目标原子核非简谐运动所对应的等效简谐频率；
+求解非简谐因子。
+1 : Marston, C. C.; Balint‐Kurti, G.</description>
     </item>
     
   </channel>

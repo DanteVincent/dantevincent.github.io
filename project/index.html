@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project | Wenqi Chen的个人博客</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/project/">Project</a></li>
+      
+      <li><a href="https://github.com/DanteVincent">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Project</span></h1>
+<h2 class="author">Wenqi Chen</h2>
+
+</div>
+
+<main>
+<hr>
+<h2 id="1-自由能一维隧穿因子计算程序">1. 自由能&amp;一维隧穿因子计算程序</h2>
+<p>简介：</p>
+<blockquote>
+<ol>
+<li>
+<p>读取Gaussian软件的频率计算任务输出, 给出相应参数: 原子个数, 分子质量, 振动频率个数, &hellip;, 转动特征温度, 振动频率等；</p>
+</li>
+<li>
+<p>根据用户输入的电子态多重度/相对能级、温度、压强、频率矫正因子等，计算得到对应的平动、转动、振动、电子配分函数；</p>
+</li>
+<li>
+<p>根据配分函数信息计算得到相应自由能矫正，再结合电子能得到最终相应温度下的自由能；</p>
+</li>
+<li>
+<p>可计算不同温度下一维Asymmetric Eckart隧穿因子<sup>1</sup>与Skodje-Truhlar隧穿因子<sup>2</sup>。</p>
+<p>1 : <a href="https://doi.org/10.1021/j100809a040">Johnston, H. S.; Heicklen, J. TUNNELLING CORRECTIONS FOR UNSYMMETRICAL ECKART POTENTIAL ENERGY BARRIERS. <em>J. Phys. Chem.</em> <strong>1962</strong>, <em>66</em> (3), 532–533.</a></p>
+<p>2 : <a href="https://doi.org/10.1021/j150606a003">Skodje, R. T.; Truhlar, D. G. Parabolic Tunneling Calculations. <em>J. Phys. Chem.</em> <strong>1981</strong>, <em>85</em> (6), 624–628.</a></p>
+</li>
+</ol>
+</blockquote>
+<img src="/images/FreeEnergy.png" style="max-width:100%;min-width:40px;" alt="FreeEnergy&1DTunneling" />
+<hr>
+<h2 id="2-一维受阻转子计算脚本">2. 一维受阻转子计算脚本</h2>
+<p>简介：</p>
+<blockquote>
+<ol>
+<li>
+<p>采用Fourier Grid Hamiltonian方法<sup>1</sup>求解对应有非简谐特征的简正模式的一维势能面的薛定谔方程；</p>
+</li>
+<li>
+<p>计算目标原子核非简谐运动所对应的等效简谐频率；</p>
+</li>
+<li>
+<p>求解非简谐因子。</p>
+</li>
+</ol>
+<p>1 : <a href="https://doi.org/10.1063/1.456888">Marston, C. C.; Balint‐Kurti, G. G. The Fourier Grid Hamiltonian Method for Bound State Eigenvalues and Eigenfunctions. <em>The Journal of Chemical Physics</em> <strong>1989</strong>, <em>91</em> (6), 3571–3576.</a></p>
+</blockquote>
+<img src="/images/1Dhinderedrotor.png" style="max-width:100%;min-width:40px;" alt="FreeEnergy&1DTunneling" />
+<img src="/images/fghresult.png" style="max-width:100%;min-width:40px;" alt="FreeEnergy&1DTunneling" />
+<hr>
+<h2 id="3-羽毛球预定辅助脚本">3. 羽毛球预定辅助脚本</h2>
+<p>简介：</p>
+<blockquote>
+<p>一个简单的用于预定羽毛球馆的脚本</p>
+</blockquote>
+<img src="/images/regist1.png" style="max-width:100%;min-width:40px;" alt="FreeEnergy&1DTunneling" />
+<img src="/images/regist2.png" style="max-width:100%;min-width:40px;" alt="FreeEnergy&1DTunneling" />
+<img src="/images/regist3.png" style="max-width:100%;min-width:40px;" alt="FreeEnergy&1DTunneling" />
+<hr>
+<p><span style="text-align: center;display:block;background-color:yellow;font-weight:bold;font-size:30px">To be released&hellip;</span></p>
+
+</main>
+
+  <footer>
+  <script defer src="//yihui.org/js/math-code.js"></script>
+<script defer src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script defer src="//yihui.org/js/center-img.js"></script>
+
+  
+  <hr/>
+  © Wenqi Chen 2022 &ndash; 2022 | <a href="https://github.com/DanteVincent">Github</a>
+  
+  </footer>
+  </body>
+</html>
+
